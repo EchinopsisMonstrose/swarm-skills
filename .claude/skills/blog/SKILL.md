@@ -21,23 +21,9 @@ Add a `---` horizontal rule before each labeled code block to visually separate 
 
 ## Before Starting (run immediately)
 
-**Run these checks now — do not just show the commands to the user:**
+Silently check node status (`curl -s http://localhost:1633/node`) and stamp availability (`swarm-cli stamp list`). If the node is down, offer to walk through `/setup-bee-interactive`. If no usable stamp exists, route to `/stamps`.
 
-1. Node running?
-   ```bash
-   curl -s http://localhost:1633/node
-   ```
-   If the request fails or returns no output → tell the user "Your Bee node isn't running." Ask: "Would you like me to walk you through installing and starting one?" If yes, run through the `/setup-bee-interactive` flow now. If no, note that a running node is required and wait for their direction.
-
-2. Stamp available?
-   ```bash
-   swarm-cli stamp list
-   ```
-   If no usable stamps → invoke `/stamps` directly
-
-   > **Important:** The stamp **must be immutable** (shown as "Immutable: Yes" in `swarm-cli stamp list` — this is the default). Mutable stamps overwrite old chunks when full — this breaks the feed's sequential index and makes old posts unretrievable. If the developer only has mutable stamps, help them buy an immutable one.
-
-Present results briefly, then proceed.
+**Important:** The stamp must be **immutable** (the default). Mutable stamps overwrite old chunks when full, breaking the feed's sequential index and making old posts unretrievable. If the developer only has mutable stamps, help them buy an immutable one.
 
 ## How It Works
 

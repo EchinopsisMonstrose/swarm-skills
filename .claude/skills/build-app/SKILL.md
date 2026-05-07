@@ -21,20 +21,11 @@ Add a `---` horizontal rule before each labeled code block to visually separate 
 
 ## Before Starting (run immediately)
 
-**Run these checks now — do not just show the commands to the user:**
+Silently check node status (`curl -s http://localhost:1633/node`). If the node is down, offer to walk through `/setup-bee-interactive` (a node is required to test uploads, though scaffolding can proceed without one).
 
-1. Node running?
-   ```bash
-   curl -s http://localhost:1633/node
-   ```
-   If the request fails or returns no output → tell the user "Your Bee node isn't running." Ask: "Would you like me to walk you through installing and starting one?" If yes, run through the `/setup-bee-interactive` flow now. If no, note that a running node is required to test uploads and continue with scaffolding if they prefer.
-
-2. Existing project?
-   ```bash
-   ls package.json 2>/dev/null && echo "EXISTING_PROJECT" || echo "NEW_PROJECT"
-   ```
-   - **If `package.json` exists:** Default to Option B (add bee-js). Ask: "I see you already have a project here. Want me to add bee-js to it, or scaffold a separate Swarm project?"
-   - **If no project:** Default to Option A (scaffold). Ask what type.
+Also check for an existing project (`ls package.json 2>/dev/null`):
+- **If `package.json` exists:** Default to adding bee-js. Ask: "I see you already have a project here. Want me to add bee-js to it, or scaffold a separate Swarm project?"
+- **If no project:** Default to scaffolding. Ask what type.
 
 ## What to Ask
 

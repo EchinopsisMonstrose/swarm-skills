@@ -21,21 +21,9 @@ Add a `---` horizontal rule before each labeled code block to visually separate 
 
 ## Before Starting (run immediately)
 
-**Run these checks now — do not just show the commands to the user:**
+Silently check node status (`curl -s http://localhost:1633/node`) and stamp availability (`swarm-cli stamp list`). If the node is down, offer to walk through `/setup-bee-interactive`. If no usable stamp exists, route to `/stamps`.
 
-1. Node running?
-   ```bash
-   curl -s http://localhost:1633/node
-   ```
-   If the request fails or returns no output → tell the user "Your Bee node isn't running." Ask: "Would you like me to walk you through installing and starting one?" If yes, run through the `/setup-bee-interactive` flow now. If no, note that a running node is required and wait for their direction.
-
-2. Stamp available?
-   ```bash
-   swarm-cli stamp list
-   ```
-   If no usable stamps → route to `/stamps`
-
-Present results briefly, then present the prerequisites to the user:
+Then present the prerequisites to the user:
 
 ## Prerequisites
 
