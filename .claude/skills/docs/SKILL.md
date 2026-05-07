@@ -1,6 +1,6 @@
 ---
 name: docs
-description: Route conceptual and technical questions to the correct authoritative Swarm documentation
+description: Answers conceptual and technical Swarm questions by fetching and summarizing the relevant official documentation page — not from training knowledge. Use when a developer asks a "how does X work", "what is Y", or "why does Z happen" question that isn't covered by the step-by-step skills. Covers node operation, postage stamps, uploads, feeds, website hosting, ACT encryption, GSOC and PSS messaging, the bee-js SDK, the Bee HTTP API, and Swarm Desktop. Cites every answer with direct source URLs and flags unofficial sources clearly. Invoke instead of guessing when Swarm concepts, API behaviour, or configuration options are unclear.
 user-invocable: true
 ---
 
@@ -36,54 +36,54 @@ Do not answer from prior training knowledge. After fetching the relevant pages, 
 ## Official Sources
 
 ### Node installation and setup
-- https://docs.ethswarm.org/docs/bee/installation/quick-start
-- https://docs.ethswarm.org/docs/bee/installation/fund-your-node
-- https://docs.ethswarm.org/docs/bee/installation/connectivity
-- https://docs.ethswarm.org/docs/bee/installation/docker
+- https://docs.ethswarm.org/docs/bee/installation/quick-start/
+- https://docs.ethswarm.org/docs/bee/installation/fund-your-node/
+- https://docs.ethswarm.org/docs/bee/installation/connectivity/
+- https://docs.ethswarm.org/docs/bee/installation/docker/
 
 ### Node configuration and operation
-- https://docs.ethswarm.org/docs/bee/working-with-bee/configuration
-- https://docs.ethswarm.org/docs/bee/working-with-bee/logs-and-files
-- https://docs.ethswarm.org/docs/bee/working-with-bee/backups
-- https://docs.ethswarm.org/docs/bee/working-with-bee/monitoring
-- https://docs.ethswarm.org/docs/bee/working-with-bee/cashing-out
-- https://docs.ethswarm.org/docs/bee/working-with-bee/staking
+- https://docs.ethswarm.org/docs/bee/working-with-bee/configuration/
+- https://docs.ethswarm.org/docs/bee/working-with-bee/logs-and-files/
+- https://docs.ethswarm.org/docs/bee/working-with-bee/backups/
+- https://docs.ethswarm.org/docs/bee/working-with-bee/monitoring/
+- https://docs.ethswarm.org/docs/bee/working-with-bee/cashing-out/
+- https://docs.ethswarm.org/docs/bee/working-with-bee/staking/
 
 ### Postage stamps
-- https://docs.ethswarm.org/docs/develop/tools-and-features/buy-a-stamp-batch
+- https://docs.ethswarm.org/docs/develop/tools-and-features/buy-a-stamp-batch/
 
 ### Uploading and downloading
-- https://docs.ethswarm.org/docs/develop/upload-and-download
-- https://docs.ethswarm.org/docs/develop/tools-and-features/pinning
-- https://docs.ethswarm.org/docs/develop/tools-and-features/chunk-types
+- https://docs.ethswarm.org/docs/develop/upload-and-download/
+- https://docs.ethswarm.org/docs/develop/tools-and-features/pinning/
+- https://docs.ethswarm.org/docs/develop/tools-and-features/chunk-types/
 
 ### Feeds and dynamic content
-- https://docs.ethswarm.org/docs/develop/tools-and-features/feeds
-- https://docs.ethswarm.org/docs/develop/dynamic-content
+- https://docs.ethswarm.org/docs/develop/tools-and-features/feeds/
+- https://docs.ethswarm.org/docs/develop/dynamic-content/
 
 ### Website hosting
 - https://docs.ethswarm.org/docs/develop/host-your-website/
 
 ### Access control (ACT)
-- https://docs.ethswarm.org/docs/develop/act
-- https://bee-js.ethswarm.org/docs/act
+- https://docs.ethswarm.org/docs/develop/act/
+- https://bee-js.ethswarm.org/docs/act/
 
 ### Messaging (GSOC and PSS)
-- https://docs.ethswarm.org/docs/develop/tools-and-features/gsoc
-- https://docs.ethswarm.org/docs/develop/tools-and-features/pss
-- https://bee-js.ethswarm.org/docs/gsoc
-- https://bee-js.ethswarm.org/docs/pss
+- https://docs.ethswarm.org/docs/develop/tools-and-features/gsoc/
+- https://docs.ethswarm.org/docs/develop/tools-and-features/pss/
+- https://bee-js.ethswarm.org/docs/gsoc/
+- https://bee-js.ethswarm.org/docs/pss/
 
 ### Swarm Desktop app
-- https://docs.ethswarm.org/docs/desktop/introduction
-- https://docs.ethswarm.org/docs/desktop/install
+- https://docs.ethswarm.org/docs/desktop/introduction/
+- https://docs.ethswarm.org/docs/desktop/install/
 
 ### Getting started / developer intro
-- https://docs.ethswarm.org/docs/develop/introduction
+- https://docs.ethswarm.org/docs/develop/introduction/
 
 ### bee-js SDK reference
 - https://bee-js.ethswarm.org/docs/
-- https://bee-js.ethswarm.org/docs/api/classes/Bee
+- https://bee-js.ethswarm.org/docs/api/classes/Bee/
 
 ### Bee HTTP API reference
 - https://docs.ethswarm.org/api/
