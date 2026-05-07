@@ -1,6 +1,6 @@
 ---
 name: feed
-description: Create and use feeds for dynamic content with stable addresses on Swarm
+description: Guide to creating and using Swarm feeds — a mechanism that gives updateable content a stable address (manifest hash) that never changes even as content is updated. Covers how feeds work (owner address + topic to predictable reference), generating a publisher key, writing to a feed, reading the latest entry, creating a feed manifest for ENS or permanent linking, and updating the feed. Includes bee-js (makeFeedWriter, makeFeedReader, createFeedManifest) and swarm-cli (identity create, feed upload, feed print) examples. Use when the user needs a fixed address for content that changes over time — websites, blogs, app state, RSS, or any dynamic data on Swarm.
 user-invocable: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: messaging
-description: Set up real-time messaging on Swarm using GSOC or PSS
+description: Guide to real-time messaging on Swarm using GSOC (Graffiti Single Owner Chunk) or PSS (Postal Service on Swarm). Covers choosing between protocols: GSOC for many-to-one patterns (chat, notifications, webhooks) and PSS for point-to-point messaging with optional encryption. Includes bee-js examples for gsocMine, gsocSend, gsocSubscribe (with onMessage, onError, onClose handlers); pssSubscribe, pssReceive, pssSend with optional recipient public key; and Utils.makeMaxTarget for PSS addressing. Both protocols require a full node to subscribe; GSOC requires mutable postage stamps. All messaging is bee-js only — swarm-cli has no messaging commands.
 user-invocable: true
 ---
 

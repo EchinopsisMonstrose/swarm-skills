@@ -1,6 +1,6 @@
 ---
 name: blog
-description: Build and publish a blog on Swarm using feeds for a permanent, updateable URL
+description: Guide to building and publishing a blog on Swarm with a permanent, updateable URL. Covers structuring posts as individual Swarm uploads, organizing them into a feed-backed index, creating a feed manifest as the stable entry point, publishing new posts without changing the blog's address, and optionally connecting an ENS domain. The blog URL (feed manifest hash) never changes as posts are added or edited. Use when the user wants to build a decentralized blog, publication, or content feed on Swarm.
 user-invocable: true
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: build-app
-description: Scaffold and build a dApp using Swarm for decentralized storage
+description: Guide to scaffolding a new Swarm dApp or adding bee-js to an existing project. Covers using create-swarm-app to bootstrap a project with Swarm storage pre-configured, installing and initializing bee-js in Node.js or browser environments, connecting to the local Bee node, and common integration patterns — uploading user data, reading back content by reference, using feeds for dynamic state, and managing stamps programmatically. Use when the user wants to start a new Swarm-based project, add decentralized storage to an existing app, or understand bee-js SDK patterns.
 user-invocable: true
 ---
 

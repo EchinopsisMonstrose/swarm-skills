@@ -1,6 +1,6 @@
 ---
 name: host-website
-description: Deploy a static website to Swarm with optional ENS
+description: Guide to deploying and updating a static website on Swarm, with optional ENS domain integration. Covers one-time uploads (single hash, changes on each deploy) and feed-based deployments (stable manifest URL that never changes). Includes swarm-cli and bee-js methods, publisher identity creation, uploading with index and error documents, updating the site via feed re-upload, connecting an ENS domain via a bzz:// content hash, and stamp expiry warnings for production sites. Recommends feeds for production so ENS records don't need updating on every deploy. Use when the user wants to host, deploy, or update a website or static frontend on Swarm.
 user-invocable: true
 ---
 
